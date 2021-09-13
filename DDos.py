@@ -1,6 +1,6 @@
 import os
 import random
-import request
+import requests
 import socket
 import sys
 os.system("clear")
