@@ -9,7 +9,7 @@ os.system("pip install random")
 os.system("pip install socket")
 os.sytem("pip install os")
 print("Installation Complete")
-sock = socket.socket(socket.AF_INET, socket.SOCK_DRAM)
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._unrandom(2000)
 os.system("clear")
 ####
